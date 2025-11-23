@@ -1,9 +1,8 @@
 
-
-🎮 CLI Hangman Game in Python
+ CLI Hangman Game in Python
 A classic, text-based implementation of the popular word-guessing game "Hangman," written in pure Python. This script selects a random word from a diverse vocabulary list and challenges the user to guess it character by character before their chances run out.
 
-✨ Features
+ Features
 Diverse Word Bank: Includes words from categories like Programming, Nature, Education, Music, and Emotions.
 
 Random Selection: A new word is chosen every time you run the script.
@@ -16,7 +15,7 @@ Lives System: You start with 8 chances. Incorrect guesses deduct a life.
 
 Win/Loss Conditions: Clear feedback when the game is won or lost.
 
-🚀 Getting Started
+ Getting Started
 Prerequisites
 You need to have Python installed on your computer. This script uses the standard random library, so no external installations (pip install) are required.
 
@@ -38,7 +37,7 @@ Run the game using the following command:
 Bash
 
 python hangman.py
-🕹️ How to Play
+How to Play
 Upon running the script, the game selects a secret word.
 
 You will be prompted to: Guess a letter:
@@ -59,7 +58,7 @@ Winning: Reveal all letters before your chances reach 0.
 
 Losing: If your chances hit 0, the game ends and reveals the correct word.
 
-📝 Example Output
+Example Output
 Winning Scenario:
 
 Plaintext
@@ -87,12 +86,12 @@ Game Over
 you LosE
 all the chances are exhausted
 the correct word PLANET
-📂 File Structure
+File Structure
 The project consists of a single Python script:
 
 hangman.py: Contains the word list logic, the main game loop, and the win/loss checks.
 
-🔮 Future Improvements
+Future Improvements
 Ideas to extend this project:
 
 [ ] Add ASCII art diagrams to visually draw the "Hangman" stick figure.
